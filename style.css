@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0b0b0b;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    
+}
+
+.logo {
+    width: 100px;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+}
+
+.header-nav-menu {
+    display: flex;
+    padding-top: 1.5rem;
+    gap: 20px;
+}
+
+.header-nav-menu a {
+    color: #b3b3b3;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+#home-hero {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+#home-hero h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+#home-hero p {
+    color: gray;
+    font-size: 1.25 rem;
+    
+}
+
+.button {
+    display: flex;
+}
+
+.watch-now {
+    background-color: red;
+    color: white;
+} 
+
+.browse {
+color: white;
+border-color: #b3b3b3;
+}
+
+#trending-now {
+    display: flex;
+    flex-direction: column;
+}
+
+#trending-now h2 {
+    color: white;
+}
+
+.trending-figure-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.trending-poster {
+    width: 10rem;
+    border-radius: 10px;
+    
+}
+
+.trending-figure {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px rgb(103, 99, 99) solid;
+    margin-bottom: 60px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(75, 74, 74);
+    align-items: center;
+    justify-items: center;
+    width: 12rem;
+    
+   
+    
+}
+
+#new-releases {
+    display: flex;
+    flex-direction: column;
+}
+
+#new-releases h2 {
+    color: white;
+}
+
+.release-images-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.release-image {
+    width: 30rem;
+}
+
+.release-figure {
+    color: white;
+    font-weight: bold;
+}
+
+#continue-watching {
+    display: flex;
+    flex-direction: column;
+}
+
+#continue-watching h2 {
+    color: white;
+}
+
+.continue-images-container {
+    display: flex;
+}
+
+.continue-image {
+    width: 10rem;
+    height: auto;
+}
+
+#main-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-footer p {
+    color: white;
+}
+
+.footer-nav-menu {
+    display: flex ;
+    gap: 20px;
+    
+}
+
+.footer-nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
