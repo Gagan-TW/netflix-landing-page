@@ -10,13 +10,13 @@
     <!--Header-->
     <header id="main-header">
 
-        <div class="right-header">
+        <div class="left-header">
         <img class="logo" src="img/Netflix_2015_logo.svg" alt="netflix-logo">
         <nav>
             <ul class="header-nav-menu">
-                <li><a href="home-hero">Home</a></li>
+                <li><a href="#home-hero">Home</a></li>
                 <li><a href="#trending-now">Trending</a></li>
-                <li><a href="#new-releases">New</a><li>
+                <li><a href="#new-releases">New</a></li>
                 <li><a href="#continue-watching">Contact</a></li>
             </ul>
         </nav>
@@ -28,33 +28,34 @@
     <h1>Watch something memorable.</h1>
     <p>Stream movies, series and more — all in one place.</p>
     <div class="buttons">
-    <button class="watch-now">Watch Now</button>
-    <button class="browse">Browse</button>
+    <a href="#trending-now" class="watch-now">Watch Now</a>
+    <a href="#new-releases" class="browse">Browse</a>
     </div>
 </section>
 
 <!--Trending Now-->
 <section id="trending-now">
     <h2>Trending Now</h2>
-    <div class="trending-figure-container">
-        <figure class="trending-figure">
+    <div class="trending-container">
+        <div class="trending-image-container">
             <img class="trending-poster" src="img/trending-poster-one.jpeg" alt="">
-            <figcaption>Muri and Ko</figcaption>
-        </figure>
-        
-        <figure class="trending-figure">
+            <h3>Muri and Ko</h3>
+        </div>
+
+        <div class="trending-image-container">
             <img class="trending-poster" src="img/trending-poster-two.jpeg" alt="">
-            <figcaption>Prophet Suddenly</figcaption>
-        </figure>
-        <figure class="trending-figure">
-             <img class="trending-poster" src="img/trending-poster-three.jpeg" alt="">
-             <figcaption>Miracle</figcaption>
-        </figure>
+            <h3>Prophet Suddenly</h3>
+        </div>
+
+        <div class="trending-image-container">
+            <img class="trending-poster" src="img/trending-poster-three.jpeg" alt="">
+            <h3>Miracle</h3>
+        </div>
        
-        <figure class="trending-figure">
+        <div class="trending-image-container">
             <img class="trending-poster" src="img/trending-poster-four.jpeg" alt="">
-            <figcaption>Induction</figcaption>
-        </figure>
+            <h3>Induction</h3>
+        </div>
     </div>
 </section>
 
@@ -62,33 +63,42 @@
 <section id="new-releases">
     <h2>New Releases</h2>
     <div class="release-images-container">
-        <figure class="release-figure">
-            <img class="release-image" src="img/releases-poster-one.jpeg" alt="">
-            <figcaption>Jason Statham</figcaption>
-        </figure>
-        <figure class="release-figure">
-            <img class="release-image" src="img/releases-poster-two.jpeg" alt="">
-            <figcaption>Boss</figcaption>
-        </figure>
-        <figure class="release-figure">
-            <img class="release-image" src="img/releases-poster-three.jpeg" alt="">
-            <figcaption>Kirk Genesis</figcaption>
-        </figure>
-        
-        <figure class="release-figure">
-             <img class="release-image" src="img/releases-poster-four.jpeg" alt="">
-             <figcaption>Team</figcaption>
-        </figure>
-       
+        <div class="release-posters">
+         <img class="release-image" src="img/releases-poster-one.jpeg" alt="Jason Statham movie poster">
+         <h3>Jason Statham</h3>
     </div>
+
+    <div class="release-posters">
+        <img class="release-image" src="img/releases-poster-two.jpeg" alt="Boss movie poster">
+        <h3>Boss</h3>
+    </div>
+
+    <div class="release-posters">
+        <img class="release-image" src="img/releases-poster-three.jpeg" alt="Kirk Genesis movie poster">
+        <h3>Kirk Genesis</h3>
+    </div>
+
+    <div class="release-posters">
+        <img class="release-image" src="img/releases-poster-four.jpeg" alt="Team movie poster">
+        <h3>Team</h3>
+    </div>
+    
 </section>
 
 <!--Continue Watching-->
 <section id="continue-watching">
     <h2>Continue Watching</h2>
     <div class="continue-images-container">
-    <img class="continue-image" src="img/continue-poster-one.jpeg" alt="">
-    <img class="continue-image" src="img/continue-poster-two.jpeg" alt="">
+        <div class="continue-poster">
+            <img class="continue-image" src="img/continue-poster-one.jpeg" alt="Kirk Genesis movie poster">
+            <h3>Kirk Genesis</h3>
+        </div>
+        
+        <div class="continue-poster">
+            <img class="continue-image" src="img/continue-poster-two.jpeg" alt="Team movie poster">
+            <h3>Team</h3>
+        </div>
+            
     </div>
 </section>
 
@@ -96,9 +106,9 @@
 <footer id="main-footer">
     <nav>
         <ul class="footer-nav-menu">
-            <li><a href="#">Audio and Subtitles</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Help Center</a></li>
+            <li><a href="#home-hero">Audio and Subtitles</a></li>
+            <li><a href="#home-hero">Privacy</a></li>
+            <li><a href="#home-hero">Help Center</a></li>
         </ul>
     </nav>
     <p>&copy; 2025 Gagandeep Kaur</p>
