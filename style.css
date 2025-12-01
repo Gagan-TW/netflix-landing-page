@@ -380,7 +380,7 @@ h3 {
 @media (max-width: 1024px) {
     #home-hero, 
     #trending-now,
-    #new-release,
+    #new-releases,
     #continue-watching {
 
         padding-left: 3rem;
@@ -391,7 +391,7 @@ h3 {
 @media (max-width: 640px) {
     #home-hero,
     #trending-now,
-    #new-release,
+    #new-releases,
     #continue-watching {
 
         padding-left: 1.5rem;
